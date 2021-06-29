@@ -1,0 +1,51 @@
+// /* import the necessary Bootstrap files */
+// @import "bootstrap/functions";
+// @import "bootstrap/variables";
+
+
+
+// Custom Colors
+$my-primary-color: #E5AE8C;
+$my-secondary-color: #006FBE;
+$my-black-color: #070707;
+$my-light-color: #EFF8FF;
+$my-nav-color: #F5FAFD;
+$my-carousel-color: #39A8E3;
+$my-h2-color: #8C644F;
+$my-card-color: #F9DBCC;
+$my-primary-background: #FEF9F6; 
+$my-secondary-background: #F5FAFD;
+
+
+
+$theme-colors: (
+    'primary': $my-primary-color,
+    'secondary': $my-secondary-color,
+    'black': $my-black-color,
+    'light': $my-light-color,
+    'nav-color': $my-nav-color,
+    'carousel-color': $my-carousel-color,
+    'h2-color': $my-h2-color,
+    'card-color': $my-card-color,
+    'background-brown': $my-primary-background,
+    'background-blue': $my-secondary-background,
+
+
+);  
+
+
+// Bootsatrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Native partials
+@import "_components.scss";
+@import "_core.scss";
+@import "_layout.scss";
+
+
+
+
+
+
+
+
