@@ -6,7 +6,6 @@
 // Forms
 
 // NAVIGATION
-
 // logo and brand
 .logo {
     width: 25px;
@@ -23,7 +22,6 @@
     text-decoration: overline;
     letter-spacing: 0.1rem;
 }
-
 // NAVIGATION END
 
 
@@ -54,7 +52,6 @@ h3 {
     text-align: center;
 }
 
-
 p {
     font-size: 1.3rem;  
 }
@@ -83,7 +80,6 @@ p {
 
 
 // alpacas
-
 .alpacas {
     height: 400vh;
 }
@@ -111,6 +107,7 @@ align-items: center;
 height: 80vh;
 }
 
+
 // tours
 .tours {
     height: 300vh;
@@ -121,7 +118,6 @@ height: 80vh;
     align-items: center;
     height: 80vh;
 }
-
 
 .card-row {
     display: flex;
@@ -150,7 +146,6 @@ height: 80vh;
 
 .nature, .relax , .cabine {
     padding: 30px;
-
 }
 
 .calltobook {
@@ -173,6 +168,7 @@ height: 80vh;
     height: 80vh;
     }
 
+
 // contact
 .contact {
     height: 90vh;
@@ -181,7 +177,6 @@ height: 80vh;
     justify-content:start;
 }
 
-
 .contactflex, {
     display: flex;
     flex-direction: column;
@@ -189,13 +184,10 @@ height: 80vh;
     height: 60vh;
     background-color: $my-card-color;
     }
-
-
-
 // MAIN END
 
-// FOOTER
 
+// FOOTER
 footer {
     height: 6vh;
     display: flex;
@@ -204,4 +196,5 @@ footer {
     color: $my-primary-color;
     background-color: $my-black-color;
 }
+// FOOTER END
 
