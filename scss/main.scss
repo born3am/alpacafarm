@@ -1,0 +1,35 @@
+// /* import the necessary Bootstrap files */
+// @import "bootstrap/functions";
+// @import "bootstrap/variables";
+
+
+
+// // Custom Colors
+// $custom-colors: (
+//         "primary-color": #E5AE8C
+//         "accent-color": #006FBE
+//         "black-color": #070707
+// )
+
+// $theme-colors: (
+//     "primary": #E5AE8C,
+//     "secondary": #006FBE,
+//     "black": #070707,
+// )
+
+
+// Bootsatrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Native partials
+@import "_components.scss";
+@import "_core.scss";
+@import "_layout.scss";
+
+
+
+
+
+
+
+
