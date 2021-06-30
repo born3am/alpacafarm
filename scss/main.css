@@ -11140,10 +11140,6 @@ body {
   background-color: #F5FAFD;
 }
 
-h1, .h1 {
-  color: #EFF8FF;
-}
-
 h1 strong:hover, .h1 strong:hover {
   color: #070707;
   letter-spacing: 0.3rem;
@@ -11163,8 +11159,8 @@ p {
   font-size: 1.3rem;
 }
 
-.about {
-  height: 100vh;
+.about, .farm, .alpacas, .tours, .stay, .shop, .contact {
+  min-height: 100vh;
 }
 
 .alpaca-carrousel {
@@ -11172,17 +11168,9 @@ p {
   background-color: #b5c3ca;
 }
 
-.farm {
-  height: 200vh;
-}
-
 .farm-images img {
   margin-bottom: 10px;
   padding-bottom: 12px;
-}
-
-.alpacas {
-  height: 400vh;
 }
 
 .alpaca-portrait {
@@ -11205,23 +11193,19 @@ p {
 .alpacaflex {
   display: flex;
   align-items: center;
-  height: 80vh;
-}
-
-.tours {
-  height: 300vh;
+  min-height: 80vh;
 }
 
 .tours .container {
   display: flex;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .card-row {
   display: flex;
   justify-content: center;
-  height: 75vh;
+  min-height: 75vh;
 }
 
 .cards {
@@ -11237,10 +11221,6 @@ p {
   font-size: 1.3rem;
 }
 
-.stay {
-  height: 300vh;
-}
-
 .nature, .relax, .cabine {
   padding: 30px;
 }
@@ -11253,18 +11233,20 @@ p {
   padding: 10px 100px 10px 100px;
 }
 
-.shop {
-  height: 300vh;
+.stayflex {
+  display: flex;
+  align-items: flex-start;
+  min-height: 60vh;
 }
 
 .shopflex {
   display: flex;
-  align-items: center;
-  height: 80vh;
+  align-items: flex-start;
+  min-height: 80vh;
 }
 
 .contact {
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -11278,7 +11260,7 @@ p {
 }
 
 footer {
-  height: 6vh;
+  min-height: 6vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
