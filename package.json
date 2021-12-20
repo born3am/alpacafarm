@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "bootstrap": "^5.0.2"
-  }
+  },
+  "name": "alpacafarm",
+  "description": "-This website is fully responsive. The wireframe, color pallette and pictures were previously provided.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/born3am/alpacafarm.git"
+  },
+  "author": "born3am",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/born3am/alpacafarm/issues"
+  },
+  "homepage": "https://github.com/born3am/alpacafarm#readme"
 }
