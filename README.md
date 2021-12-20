@@ -1,5 +1,5 @@
 # Alpaca Farm!
--This website was made as a project during my web developmemt course. The wireframe, color pallete and pictures were previsouly provided.
+-This website is fully responsive and uses basically HTML and CSS. The wireframe, color pallete and pictures were previsouly provided.
 
 ## Built with
 -Semantic HTML5 markup
