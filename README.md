@@ -1,5 +1,5 @@
 # Alpaca Farm!
--This website is fully responsive and uses basically HTML and SCSS. The wireframe, color pallete and pictures were previsouly provided.
+-This website is fully responsive. The wireframe, color pallette and pictures were previously provided.
 
 ## Built with
 -Semantic HTML5 markup
@@ -11,4 +11,19 @@
 -Bootstrap 
 
 ## Screenshot
-![image](./img/alpaca.screenshot.png)
+![image](./readme-pics/alpaca.screenshot.png)
+
+
+## Colors
+![image](./readme-pics/colors.png)
+
+![image](./readme-pics/alpaca-colors-primary.png)
+
+![image](./readme-pics/alpaca-colors-accent.png)
+
+![image](./readme-pics/alpaca-colors-gray.png)
+
+
+## Wireframe
+![image](./readme-pics/wireframe.png)
+
